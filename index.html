@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Reyestemik</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+      animation: fadeIn 2s ease;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 10px;
+    }
+    nav ul li button {
+      background: #3a3a52;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 1em;
+    }
+    nav ul li button:hover {
+      background: #6a3093;
+      transform: scale(1.1);
+    }
+    section {
+      display: none;
+      padding: 30px;
+      animation: fadeIn 1s ease;
+    }
+    section.active {
+      display: block;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(0,0,0,0.4);
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reyestemik</h1>
+    <p>Administrador y moderador de servidores Minecraft</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><button onclick="mostrarSeccion('descripcion')">Descripción Personal</button></li>
+      <li><button onclick="mostrarSeccion('experiencia')">Experiencia Manager & Staff</button></li>
+      <li><button onclick="mostrarSeccion('historial')">Historial de Moderación</button></li>
+      <li><button onclick="mostrarSeccion('años')">Años de Trayectoria</button></li>
+      <li><button onclick="mostrarSeccion('proyectos')">Otros Proyectos</button></li>
+    </ul>
+  </nav>
+
+  <!-- Secciones -->
+    <section id="descripcion" class="active">
+  <h2>Descripción Personal</h2>
+  <p>
+    Mi nombre es <strong>Reyestemik</strong>, y soy un apasionado de la administración, moderación y desarrollo de comunidades en servidores de Minecraft. 
+    Desde hace más de <strong>8 años</strong> me he dedicado a explorar todas las facetas del juego, comprendiendo sus mecánicas, la dinámica de las comunidades y las necesidades técnicas que garantizan una experiencia estable y atractiva para los jugadores.
+  </p>
+  <p>
+    Durante los últimos <strong>3 años</strong> he trabajado como staff y manager en diversos proyectos, donde he perfeccionado mis habilidades en liderazgo, organización de equipos de moderación, resolución de conflictos y soporte técnico. 
+    Mi enfoque siempre ha sido mantener comunidades activas, seguras y motivadas, aplicando estrategias que fomenten la participación y el respeto entre los jugadores.
+  </p>
+  <p>
+    A nivel técnico, me especializo en la configuración avanzada de rangos y permisos mediante <strong>LuckPerms</strong>, el diseño de <strong>scoreboards</strong> y sistemas de <strong>TAB global</strong> con <strong>PlaceholderAPI</strong>, así como la implementación de plugins esenciales como <strong>EssentialsX</strong> y <strong>CrownPunishments</strong>. 
+    Estas herramientas me han permitido crear entornos profesionales, ordenados y funcionales, adaptados a las necesidades de cada servidor.
+  </p>
+  <p>
+    Mi trayectoria incluye participación en servidores reconocidos como <strong>Regorland Network</strong>, <strong>Infection.fun</strong>, <strong>MediaCraft</strong> y <strong>AlmaMC</strong>, donde he aportado soluciones técnicas, estrategias de moderación y propuestas de mejora para la experiencia de los jugadores. 
+    Cada proyecto ha sido una oportunidad para crecer, aprender y consolidar mi perfil como administrador confiable y comprometido.
+  </p>
+  <p>
+    Mi objetivo es seguir desarrollándome como manager y administrador de servidores, aportando no solo conocimientos técnicos, sino también visión estratégica y capacidad de liderazgo. 
+    Estoy convencido de que la combinación de experiencia, pasión y profesionalismo es la clave para construir comunidades sólidas y proyectos exitosos en el mundo de Minecraft.
+  </p>
+
+  </section>
+
+<section id="experiencia">
+  <h2>Experiencia como Manager y Staff</h2>
+  <p>
+    A lo largo de mi trayectoria he desempeñado funciones como <strong>manager</strong> y <strong>staff</strong> en servidores reconocidos dentro de la comunidad de Minecraft, tales como 
+    <strong>Regorland Network</strong>, <strong>Infection.fun</strong>, <strong>MediaCraft</strong> y <strong>AlmaMC</strong>. 
+    Estos proyectos me han permitido consolidar mi perfil como administrador confiable, capaz de liderar equipos, mantener comunidades activas y aportar soluciones técnicas de alto nivel.
+  </p>
+  <p>
+    En cada uno de estos servidores he asumido responsabilidades clave que abarcan tanto la gestión humana como la parte técnica, siempre con el objetivo de garantizar un entorno seguro, estable y atractivo para los jugadores. 
+    Mi experiencia se ha caracterizado por la capacidad de adaptarme a diferentes estilos de comunidad y por implementar estrategias que mejoren la convivencia y la participación.
+  </p>
+  <ul style="text-align:left; max-width:700px; margin:auto;">
+    <li><strong>Organización y coordinación de equipos de moderación:</strong> planificación de turnos, asignación de tareas y formación de nuevos miembros del staff para asegurar un servicio constante y eficiente.</li>
+    <li><strong>Gestión de jugadores y resolución de conflictos:</strong> mediación en disputas, aplicación de sanciones justas y comunicación clara con la comunidad para mantener un ambiente respetuoso.</li>
+    <li><strong>Mantenimiento de la comunidad:</strong> creación de eventos, dinámicas y actividades que fomenten la participación activa y el sentido de pertenencia entre los jugadores.</li>
+    <li><strong>Soporte técnico:</strong> asistencia en la configuración de plugins, optimización del rendimiento del servidor y solución de problemas relacionados con permisos, rangos y sistemas internos.</li>
+    <li><strong>Visión estratégica:</strong> propuesta de mejoras en la estructura organizativa del staff y en la experiencia de usuario, buscando siempre la innovación y la profesionalización de cada proyecto.</li>
+  </ul>
+  <p>
+    Esta experiencia me ha permitido desarrollar habilidades de liderazgo, comunicación efectiva y gestión de proyectos, además de fortalecer mi conocimiento técnico en la administración de servidores Minecraft. 
+    Mi compromiso ha sido siempre aportar valor a cada comunidad, asegurando que los jugadores disfruten de un entorno ordenado, dinámico y profesional.
+  </p>
+</section>
+
+    </ul>
+  </section>
+
+<section id="historial">
+  <h2>Historial de Moderación y Configuración</h2>
+  <p>
+    Mi experiencia en moderación y configuración de servidores Minecraft se ha construido a lo largo de años de práctica constante y participación activa en comunidades de gran tamaño. 
+    He trabajado en la detección y prevención de trampas, la implementación de sistemas de sanciones y la optimización de herramientas que garantizan un entorno justo, seguro y profesional para los jugadores.
+  </p>
+  <p>
+    Entre las principales áreas en las que me he especializado se encuentran:
+  </p>
+  <ul style="text-align:left; max-width:700px; margin:auto;">
+    <li><strong>Moderación activa contra cheats y exploits:</strong> aplicación de sanciones inmediatas, investigación de casos de abuso y uso de herramientas de detección para mantener la integridad del servidor.</li>
+    <li><strong>Configuración avanzada de rangos y permisos con LuckPerms:</strong> creación de jerarquías claras, asignación de privilegios específicos y mantenimiento de un sistema de permisos ordenado y escalable.</li>
+    <li><strong>Diseño de scoreboards y TAB globales con PlaceholderAPI:</strong> desarrollo de interfaces visuales atractivas y funcionales que muestran estadísticas, rangos y datos relevantes en tiempo real.</li>
+    <li><strong>Implementación de sistemas de sanciones con CrownPunishments:</strong> integración de un sistema robusto de advertencias, suspensiones y baneos, asegurando transparencia y consistencia en la moderación.</li>
+    <li><strong>Uso de EssentialsX para optimizar comandos y utilidades:</strong> configuración de comandos básicos, teletransportes, kits y utilidades que mejoran la experiencia de los jugadores y facilitan la gestión del staff.</li>
+  </ul>
+  <p>
+    Este historial refleja mi capacidad para combinar habilidades técnicas con un enfoque estratégico en la moderación. 
+    No solo me he dedicado a aplicar reglas, sino también a diseñar sistemas que previenen problemas antes de que ocurran, fortaleciendo la confianza de la comunidad en la administración del servidor. 
+    Mi compromiso es siempre garantizar que cada jugador disfrute de un entorno justo, estable y profesional.
+  </p>
+</section>
+
+    </ul>
+  </section>
+
+<section id="años">
+  <h2>Años de Trayectoria</h2>
+  <p>
+    Mi trayectoria en Minecraft se extiende por más de <strong>8 años</strong>, tiempo en el cual he explorado a fondo cada una de sus mecánicas, 
+    comprendiendo la evolución del juego, las dinámicas de las comunidades y las necesidades técnicas que garantizan servidores estables y atractivos. 
+    Esta experiencia me ha permitido desarrollar una visión integral del ecosistema de Minecraft, desde la perspectiva del jugador hasta la del administrador.
+  </p>
+  <p>
+    Durante los últimos <strong>3 años</strong> he trabajado como staff y manager en diversos proyectos, consolidando mis habilidades en liderazgo, 
+    moderación y configuración técnica. En este periodo he aprendido a gestionar equipos de trabajo, resolver conflictos de manera efectiva y aplicar 
+    estrategias que fortalecen la convivencia y la participación dentro de las comunidades.
+  </p>
+  <p>
+    Mi experiencia como jugador me ha dado la capacidad de entender las expectativas y necesidades de la comunidad, mientras que mi rol como staff 
+    me ha permitido aportar soluciones técnicas y organizativas que elevan la calidad de cada servidor. Esta combinación de perspectivas me convierte 
+    en un administrador capaz de equilibrar la parte humana con la parte técnica, asegurando entornos profesionales y dinámicos.
+  </p>
+  <p>
+    En resumen, mi trayectoria refleja un compromiso constante con el crecimiento personal y profesional dentro del mundo de Minecraft, 
+    siempre con el objetivo de aportar valor, innovación y estabilidad a cada proyecto en el que participo.
+  </p>
+</section>
+
+ <section id="proyectos">
+  <h2>Otros Proyectos y Aportes</h2>
+  <p>
+    Además de mi experiencia directa en servidores de Minecraft, he participado en diversos proyectos y aportes que han fortalecido mi perfil como administrador y moderador. 
+    Estos trabajos reflejan mi capacidad para adaptarme a diferentes entornos, aportar soluciones técnicas y contribuir al crecimiento de comunidades digitales con profesionalismo y creatividad.
+  </p>
+  <ul style="text-align:left; max-width:700px; margin:auto;">
+    <li><strong>Diseño de sistemas de rangos personalizados:</strong> creación de jerarquías adaptadas a las necesidades de cada servidor, asegurando claridad en los permisos y una progresión justa para los jugadores.</li>
+    <li><strong>Creación de scoreboards decorativos y funcionales:</strong> desarrollo de interfaces visuales que combinan estética y utilidad, mostrando estadísticas, logros y datos relevantes en tiempo real.</li>
+    <li><strong>Soporte en la implementación de plugins clave:</strong> asesoría y configuración de herramientas como EssentialsX, LuckPerms y CrownPunishments, optimizando la gestión de comandos, permisos y sanciones.</li>
+    <li><strong>Asesoría en seguridad y prevención de exploits en servidores Roblox:</strong> análisis de vulnerabilidades, implementación de medidas preventivas y capacitación de equipos para mantener entornos seguros y confiables.</li>
+    <li><strong>Colaboración en proyectos comunitarios:</strong> participación en iniciativas de mejora de la experiencia de usuario, aportando ideas innovadoras y soluciones técnicas que fortalecen la interacción entre jugadores.</li>
+  </ul>
+  <p>
+    Estos aportes reflejan mi compromiso con la excelencia y mi interés en seguir creciendo como administrador. 
+    Mi objetivo es continuar desarrollando proyectos que combinen técnica, creatividad y liderazgo, aportando soluciones profesionales que eleven la calidad de cada comunidad en la que participo.
+  </p>
+</section>
+
+  <footer>
+    <p>© 2026 Reyestemik | Portafolio Profesional</p>
+  </footer>
+
+  <script>
+    function mostrarSeccion(id) {
+      const secciones = document.querySelectorAll("section");
+      secciones.forEach(sec => sec.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+</body>
+</html>
